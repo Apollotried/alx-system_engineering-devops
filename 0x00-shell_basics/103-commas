@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -pvA
+LC_COLLATE=C ls -1vA | sed -E 's|^(.*[/])?$|\1|' | tr '\n' ',' | sed 's|,$|\n|'
