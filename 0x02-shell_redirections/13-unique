@@ -1,1 +1,2 @@
 #!/bin/bash
+tr -s ' ' '\n' < input_file.txt | sort | uniq -u
