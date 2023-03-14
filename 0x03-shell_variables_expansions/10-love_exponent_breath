@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$BREATH^$LOVE" | bc -l
+echo "16o${BREATH} ${LOVE}^p" | dc
