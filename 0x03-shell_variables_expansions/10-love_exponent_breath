@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "16o${BREATH} ${LOVE}^p" | dc
+echo $(( $BREATH ** $LOVE ))
